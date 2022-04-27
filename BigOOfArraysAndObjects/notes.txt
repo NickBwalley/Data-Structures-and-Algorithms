@@ -1,0 +1,20 @@
+Big O of objects 
+ insertion => O(1)
+ Removal => O(1)
+ Searching => O(N)
+ Access => O(1)
+
+ ARRAYS
+ inserting elements in an array at the end of the array => O(1)!
+ inserting elements in an array at the beginning of an array => O(n)! // problematic
+    - you have to re arrange the indexes of all other elements in the array which is slow. 
+    - removing element at the beginning of an array is best to avoid if you can 
+push and pop is usually best than shift and unshift. 
+Accessing elements in an array => O(1)! // very fast 
+
+BIG O OF ARRAY OPERATIONS.
+- push and pop      =>  O(1)
+- shift and unshift =>  O(N)
+- concat, slice, splice => O(N)
+- sort      => O(N * log N)
+- forEach, map, filter, reduce => O(N) 
